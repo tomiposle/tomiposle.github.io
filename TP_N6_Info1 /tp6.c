@@ -2,12 +2,12 @@
 #include <math.h>
 #define PI 3.14159265f
 
-float calcularAreaRectangulo(float longitud, float altura);
-float calcularPerimetroRectangulo(float longitud, float altura);
-float calcularDiagonalRectangulo(float longitud, float altura);
-float calcularAreaCirculo(float radio);
-float calcularPerimetroCirculo(float radio);
-void imprimirResultados(float area, float perimetro);
+float calcularAreaRectangulo(float, float);
+float calcularPerimetroRectangulo(float, float);
+float calcularDiagonalRectangulo(float, float);
+float calcularAreaCirculo(float);
+float calcularPerimetroCirculo(float);
+void imprimirResultados(float, float);
 
 int main(){
     
